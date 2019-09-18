@@ -43,4 +43,17 @@ $(document).ready(function() {
   $(document).on("click", "#turnOn", function() {
     fullpage_api.setAutoScrolling(true);
   });
+
+  $(window).on("load resize", function() {
+    responsive();
+  });
+
+  function responsive() {
+    var w = $(window).width();
+    if (w <= 768) {
+      $.fn.fullpage.setResponsive(true);
+    } else {
+      $.fn.fullpage.setResponsive(false);
+    }
+  }
 });
