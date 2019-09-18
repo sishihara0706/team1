@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://sishihara0706.github.io/team1",
   "scripts": {
     "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,7 +17,6 @@
   "bugs": {
     "url": "https://github.com/sishihara0706/team1/issues"
   },
-  "homepage": "https://github.com/sishihara0706/team1#readme",
   "devDependencies": {
     "gh-pages": "^2.1.1"
   }
